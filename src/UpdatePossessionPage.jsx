@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 
-const apiUrl = "https://student-patrimoine.onrender.com";
+const apiUrl = "https://patrimoine-backend.onrender.com";
 
 const UpdatePossessionPage = () => {
   const { libelle } = useParams();

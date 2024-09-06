@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Form, Button } from 'react-bootstrap';
 import { Line } from 'react-chartjs-2';
 import 'chart.js/auto';
-const apiUrl = "https://student-patrimoine.onrender.com";
+const apiUrl = "https://patrimoine-backend.onrender.com";
 
 const PatrimoineRangePage = () => {
   const [startDate, setStartDate] = useState('');
